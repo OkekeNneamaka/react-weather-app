@@ -1,3 +1,28 @@
-.App {
-  text-align: center;
+.submit-input{
+  margin-left: 10px;
+  width: 10%;
+  font-size: 20px;
+}
+
+.weather-features ul{
+margin: 0;
+padding: 0;
+}
+
+.weather-features li{
+  list-style-type: none;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.weather-icon{
+  font-size: 100px;
+}
+
+.temp-figure{
+margin-left: 20px;
+font-size: 46px;
+}
+.footer{
+  margin-left: 120px;
 }
