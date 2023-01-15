@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <div className="container border rounded p-4">
-        <Weather />
+        <Weather defaultCity="Lagos" />
       </div>
       <div className="footer">
         <footer>
