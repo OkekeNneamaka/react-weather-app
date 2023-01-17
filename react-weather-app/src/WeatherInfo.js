@@ -3,7 +3,7 @@ import FormattedDate from "./FormattedDate";
 export default function WeatherInfo(props) {
   return (
     <div>
-      <h1>Lagos State</h1>
+      <h1>{props.data.name}</h1>
       <p>
         <FormattedDate date={props.data.date} />
         <br />
@@ -13,7 +13,7 @@ export default function WeatherInfo(props) {
       <div className="row mt-3">
         <div className="col-6">
           <img
-            src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/mist-night.png"
+            src={props.data.iconUrl}
             alt={props.data.description}
             className="weather-icon"
           ></img>
